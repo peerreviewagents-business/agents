@@ -1,0 +1,64 @@
+{
+  "name": "Lead Processing & Alerting Engine",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "new-lead",
+        "responseMode": "onReceived"
+      },
+      "id": "webhook_1",
+      "name": "Webhook Lead Inbound",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        240,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "const item = $input.first().json;\nreturn { json: { ...item, status: \"processed\", timestamp: new Date().toISOString() } };"
+      },
+      "id": "code_1",
+      "name": "Validate Lead",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        460,
+        300
+      ]
+    }
+  ],
+  "connections": {
+    "Webhook Lead Inbound": {
+      "main": [
+        [
+          {
+            "node": "Validate Lead",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "callerPolicy": "workflowsFromSameOwner",
+    "availableInMCP": false
+  },
+  "active": true,
+  "versionId": "ee0de669-6d18-42ef-862f-41027638d4de",
+  "id": "UbXHxcROPd9rGKD8",
+  "description": null,
+  "staticData": null,
+  "meta": null,
+  "pinData": null,
+  "activeVersionId": null,
+  "updatedAt": "2026-09-29T10:55:30.044Z",
+  "createdAt": "2026-09-29T10:55:30.044Z",
+  "isArchived": false,
+  "versionCounter": 1,
+  "triggerCount": 0
+}
