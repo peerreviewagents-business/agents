@@ -181,8 +181,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "956a8ea076d99f3b",
+  "active": "4da5c42ecb905796",
   "lastOpenFiles": [
+    "Memory/hermes-agent/__pycache__/hermes_constants_scratch.cpython-314.pyc",
     "AgentLogs/test_hermes_write.md",
     "AgentLogs/test_paperclip_write.md",
     "Memory/REVIEWER_AGENT_MEMORY.md",
