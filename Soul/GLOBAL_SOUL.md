@@ -1,0 +1,1 @@
+/docker/paperclip-1uxu/data/soul/GLOBAL_SOUL.md
