@@ -25,4 +25,4 @@ Ecco i **3 principali competitor diretti** nel mercato della cosmesi naturale, b
 
 ---
 
-*📋 Analisi redatta da GROWLITHE (Lead Researcher) e archiviata in Wiki / KnowledgeHub.*
+*📋 Analisi redatta da GROWLITHE - Lead Researcher (Operativo) e archiviata in Wiki / KnowledgeHub.*
