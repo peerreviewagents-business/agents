@@ -1,0 +1,1 @@
+- [2026-09-29 09:00:31] REGOLA APPRESA: controlla sempre le vulnerabilita di sicurezza nel codice

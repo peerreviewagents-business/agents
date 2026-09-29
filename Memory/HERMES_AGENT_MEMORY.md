@@ -1,0 +1,1 @@
+- [2026-09-29 09:00:29] REGOLA APPRESA: per il team dev: tutti i test devono usare pytest e passare al 100%
