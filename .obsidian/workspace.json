@@ -183,6 +183,8 @@
   },
   "active": "956a8ea076d99f3b",
   "lastOpenFiles": [
+    "AgentLogs/test_hermes_write.md",
+    "AgentLogs/test_paperclip_write.md",
     "Memory/REVIEWER_AGENT_MEMORY.md",
     "Memory/HERMES_AGENT_MEMORY.md",
     "Memory/DEV_TEAM_MEMORY.md",
